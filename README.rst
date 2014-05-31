@@ -100,15 +100,17 @@ Theming tools features
 Plone theming suite includes some Plone products and 
 configurations like these:
 
-- ``Products.Doormat`` for adds a doormat viewlet 
-  and installs it in the Plone footer.
+- `collective.cover <https://pypi.python.org/pypi/collective.cover>`_ 
+  for edit to create front pages and other composite pages.
 
-- ``collective.cover`` for edit to create front pages 
-  and other composite pages.
+- `Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_ 
+  for adds a doormat viewlet and installs it in the Plone footer.
 
-- ``collective.fontawesome`` for add Font Awesome for Plone.
+- `collective.fontawesome <https://pypi.python.org/pypi/collective.fontawesome>`_ 
+  for add Font Awesome for Plone.
 
-- ``medialog.googlefonts`` for add Googlefonts for Plone.
+- `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
+  for add Googlefonts for Plone.
     
 
 Development installation
