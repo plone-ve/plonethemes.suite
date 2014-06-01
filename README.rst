@@ -111,7 +111,6 @@ configurations like these:
 
 - `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
   for add Googlefonts for Plone.
-    
 
 Development installation
 ------------------------
@@ -147,6 +146,30 @@ Others resources for Plone themes
 
 - `Beautiful Design and Powerful Plone Features <http://themes.quintagroup.com/>`_.
 
+
+Support
+========
+
+If you run into any issues trying to get this to work, please, add an
+issue to the `tracker here`_ on this github project.
+
+Collaborations
+==============
+
+Really thanks to :
+
+Original Author
+----------------
+
+* Leonardo J .Caballero G. aka macagua
+
+Impressive collaborations
+-------------------------
+
+* Full name aka username
+
+For an updated list of all contributors visit the following URL: https://github.com/plone-ve/plonethemes.suite/contributors
+
 Reference
 =========
 
@@ -155,3 +178,5 @@ Reference
 - `"New" Plone theming has arrived <http://blog.aclark.net/2011/05/27/quotnewquot-plone-theming-has-arrived/>`_.
 
 - `A report on plonetheme.* <http://blog.aclark.net/2010/11/04/a-report-on-plonetheme/>`_.
+
+.. _tracker here: https://github.com/plone-ve/plonethemes.suite/issues
