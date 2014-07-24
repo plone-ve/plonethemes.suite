@@ -29,8 +29,54 @@ Plone theme skins.
 Diazo Themes
 -------------
 
-In this suite are distributed around 30 differents 
+In this suite are distributed around 53 differents
 Generic Diazo themes.
+
+- `chalkboardtheme_plone <https://github.com/tkimnguyen/chalkboardtheme_plone>`_.
+
+- `beyondskins.brasilia <https://github.com/simplesconsultoria/beyondskins.brasilia>`_.
+
+- `beyondskins.phantasmagoria <https://github.com/simplesconsultoria/beyondskins.phantasmagoria>`_.
+
+- `beyondskins.happy <https://github.com/simplesconsultoria/beyondskins.happy>`_.
+
+- `beyondskins.colors <https://github.com/simplesconsultoria/beyondskins.colors>`_.
+
+- `beyondskins.sports <https://github.com/simplesconsultoria/beyondskins.sports>`_.
+
+- `beyondskins.sunflower <https://github.com/simplesconsultoria/beyondskins.sunflower>`_.
+
+- `beyondskins.beyondskins <https://github.com/simplesconsultoria/beyondskins.beyondskins>`_.
+
+- `beyondskins.responsive <https://github.com/simplesconsultoria/beyondskins.responsive>`_.
+
+- `beyondskins.lostkatana <https://github.com/simplesconsultoria/beyondskins.lostkatana>`_.
+
+- `beyondskins.minimalist <https://github.com/simplesconsultoria/beyondskins.minimalist>`_.
+
+- `diazotheme.amazium <https://github.com/TH-code/diazotheme.amazium>`_.
+
+- `diazotheme.baseline <https://github.com/TH-code/diazotheme.baseline>`_.
+
+- `diazotheme.bootstrap <https://github.com/TH-code/diazotheme.bootstrap>`_.
+
+- `diazotheme.bootswatch <https://github.com/TH-code/diazotheme.bootswatch>`_.
+
+- `diazotheme.foundation <https://github.com/TH-code/diazotheme.foundation>`_.
+
+- `diazotheme.goldilocks <https://github.com/TH-code/diazotheme.goldilocks>`_.
+
+- `diazotheme.initializr <https://github.com/TH-code/diazotheme.initializr>`_.
+
+- `diazotheme.kube <https://github.com/TH-code/diazotheme.kube>`_.
+
+- `diazotheme.plone <https://github.com/TH-code/diazotheme.plone>`_.
+
+- `diazotheme.purecss <https://github.com/TH-code/diazotheme.purecss>`_.
+
+- `diazotheme.skeleton <https://github.com/TH-code/diazotheme.skeleton>`_.
+
+- `diazotheme.startup <https://github.com/TH-code/diazotheme.startup>`_.
 
 - `plonetheme.amherst <https://github.com/collective/plonetheme.amherst>`_.
 
@@ -88,7 +134,7 @@ Generic Diazo themes.
 
 - `plonetheme.yoko <https://github.com/tisto/plonetheme.yoko>`_.
 
-- `plonetheme.changecenter <https://github.com/a-pasquale/plonetheme.changecenter>`_.
+- `plonetheme.changecenter <https://github.com/collective/plonetheme.changecenter>`_.
 
 - `plonetheme.unam <https://github.com/imatem/plonetheme.unam>`_.
 
@@ -111,6 +157,56 @@ configurations like these:
 
 - `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
   for add Googlefonts for Plone.
+
+- `collective.behavior.localdiazo <https://pypi.python.org/pypi/collective.behavior.localdiazo>`_ for add Dexterity behavior to enable a local Diazo theme. for Plone.
+
+- `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ for add Dexterity behavior to enable a local theme skin for Plone.
+
+- ` <https://pypi.python.org/pypi/>`_ for add  for Plone.
+
+JQuery tools features
+---------------------
+
+Plone theming suite includes some JQuery features like these:
+
+- `zettwerk.ui <https://pypi.python.org/pypi/zettwerk.ui>`_ add `jquery.ui's themeroller <http://jqueryui.com/themeroller/>`_ to plone 4 for easy theme customization.
+
+- `zettwerk.mobile <https://pypi.python.org/pypi/zettwerk.mobile>`_ add jquery.mobile based themes for plone with `jquery.mobile's themeroller <http://themeroller.jquerymobile.com/>`_.
+
+CSS Frameworks for Plone
+------------------------
+
+Plone theming suite includes some CSS Frameworks for Plone like these:
+
+- `diazoframework.plone <https://github.com/TH-code/diazoframework.plone>`_ is the base Diazo Framework for Plone.
+
+- `diazoframework.amazium <https://github.com/TH-code/diazoframework.amazium>`_ that integrates the `Amazium CSS framework <http://www.amazium.co.uk/>`_ into Plone.
+
+- `diazoframework.baseline <https://github.com/TH-code/diazoframework.baseline>`_ that integrates the `Baseline CSS framework <http://baselinecss.com/>`_ into Plone.
+
+- `diazoframework.bootstrap <https://github.com/TH-code/diazoframework.bootstrap>`_ that integrates the `Twitter Bootstrap CSS framework <http://twitter.github.io/bootstrap/>`_ into Plone.
+
+- `diazoframework.foundation <https://github.com/TH-code/diazoframework.foundation>`_ that integrates the `Zurb Foundation CSS framework <http://foundation.zurb.com/>`_ into Plone.
+
+- `diazoframework.goldilocks <https://github.com/TH-code/diazoframework.goldilocks>`_ that integrates the `Goldilocks Approach CSS framework <http://goldilocksapproach.com/>`_ into Plone.
+
+- `diazoframework.kube <https://github.com/TH-code/diazoframework.kube>`_ that integrates the `Kube CSS framework <http://imperavi.com/kube/>`_ into Plone.
+
+- `diazoframework.purecss <https://github.com/TH-code/diazoframework.purecss>`_ that integrates the `PureCSS framework <http://purecss.io/>`_ into Plone.
+
+- `diazoframework.skeleton <https://github.com/TH-code/diazoframework.skeleton>`_ that integrates the `Skeleton CSS framework <http://www.skeleton.co.uk/>`_ into Plone.
+
+- `diazotheme.framework.cascade <https://github.com/TH-code/diazotheme.framework.cascade>`_ that integrates the `Cascade Framework <http://www.cascade-framework.com/>`_ into Plone.
+
+- `diazotheme.framework.gumby <https://github.com/TH-code/diazotheme.framework.gumby>`_ that integrates the `Gumby Framework <http://gumbyframework.com/>`_ into Plone.
+
+- `diazotheme.framework.ivory <https://github.com/TH-code/diazotheme.framework.ivory>`_ that integrates the `IVORY Framework <http://weice.in/ivory/>`_ into Plone.
+
+- `diazotheme.framework.metro <https://github.com/TH-code/diazotheme.framework.metro>`_ that integrates the `Metro Framework <http://metroui.org.ua/>`_ into Plone.
+
+- `diazotheme.framework.wirefy <https://github.com/TH-code/diazotheme.framework.wirefy>`_ that integrates the `Wirefy Framework <http://getwirefy.com/>`_ into Plone.
+
+- `diazotheme.framework.yaml4 <https://github.com/TH-code/diazotheme.framework.yaml4>`_ that integrates the `YAML CSS Framework <http://www.yaml.de/>`_ into Plone.
 
 Development installation
 ------------------------
