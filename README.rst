@@ -11,8 +11,7 @@ Plone.
 Plone theme skins
 ------------------
 
-In this suite are distributed around 6 differents
-Plone theme skins.
+In this suite are distributed around 6 differents Plone theme skins.
 
 - `quintagroup.theme.sunrain <https://github.com/quintagroup/quintagroup.theme.sunrain>`_.
 
@@ -29,8 +28,7 @@ Plone theme skins.
 Diazo Themes
 -------------
 
-In this suite are distributed around 53 differents
-Generic Diazo themes.
+In this suite are distributed around 53 differents Generic Diazo themes.
 
 - `chalkboardtheme_plone <https://github.com/tkimnguyen/chalkboardtheme_plone>`_.
 
@@ -143,8 +141,7 @@ Generic Diazo themes.
 Theming tools features
 -----------------------
 
-Plone theming suite includes some Plone products and 
-configurations like these:
+Plone theming suite includes some Plone products and configurations like these:
 
 - `collective.cover <https://pypi.python.org/pypi/collective.cover>`_ 
   for edit to create front pages and other composite pages.
@@ -161,8 +158,6 @@ configurations like these:
 - `collective.behavior.localdiazo <https://pypi.python.org/pypi/collective.behavior.localdiazo>`_ for add Dexterity behavior to enable a local Diazo theme. for Plone.
 
 - `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ for add Dexterity behavior to enable a local theme skin for Plone.
-
-- ` <https://pypi.python.org/pypi/>`_ for add  for Plone.
 
 JQuery tools features
 ---------------------
@@ -211,8 +206,7 @@ Plone theming suite includes some CSS Frameworks for Plone like these:
 Development installation
 ------------------------
 
-To get a basic development installation running 
-follow the steps below: ::
+To get a basic development installation running follow the steps below: ::
 
     $ git clone https://github.com/plone-ve/plonethemes.suite.git
     $ cd plonethemes.suite
@@ -221,8 +215,7 @@ follow the steps below: ::
 
 Running the site
 ----------------
-Once the buildout has finished, you can access the site by starting up
-Plone. ::
+Once the buildout has finished, you can access the site by starting up Plone. ::
 
     $ bin/instance fg
 
