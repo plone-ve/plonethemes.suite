@@ -67,6 +67,8 @@ In this suite are distributed around 53 differents Generic Diazo themes.
 
 - `diazotheme.bootstrap <https://github.com/TH-code/diazotheme.bootstrap>`_.
 
+- `vs.bootstrap.tinymce <https://pypi.python.org/pypi/vs.bootstrap.tinymce>`_.
+
 - `diazotheme.bootswatch <https://github.com/TH-code/diazotheme.bootswatch>`_.
 
 - `diazotheme.foundation <https://github.com/TH-code/diazotheme.foundation>`_.
