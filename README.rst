@@ -1,15 +1,24 @@
 Plone theming suite
 ====================
 
-The idea with this buildout configuration is 
-show install a Plone latest version, with many 
-Plone theme skins, Diazo Themes and usefull 
-Theming tools for layout, adding custom icons 
-and fonts with third-party add-ons theming into 
-Plone.
+The idea with this buildout configuration is show install a 
+Plone latest version, with many Plone theme skins, Diazo 
+Themes and usefull Theming tools for layout, adding custom 
+icons and fonts with third-party add-ons theming into Plone.
+
+Scaffold tools features
+-----------------------
+
+Plone theming suite includes some scaffold tools features like these:
+
+- `zopeskel.diazotheme <https://pypi.python.org/pypi/zopeskel.diazotheme/>`_.
+
+- `vs.zopeskel.diazo <https://pypi.python.org/pypi/vs.zopeskel.diazo/>`_.
+
+- `toutpt.zopeskel <https://pypi.python.org/pypi/toutpt.zopeskel/>`_.
 
 Plone theme skins
-------------------
+-----------------
 
 In this suite are distributed around 6 differents Plone theme skins.
 
@@ -26,7 +35,7 @@ In this suite are distributed around 6 differents Plone theme skins.
 - `plonetheme.trantor <https://github.com/tristanlt/plonetheme.trantor>`_.
 
 Diazo Themes
--------------
+------------
 
 In this suite are distributed around 53 differents Generic Diazo themes.
 
@@ -139,7 +148,7 @@ In this suite are distributed around 53 differents Generic Diazo themes.
 - `plonetheme.zopeorg <https://github.com/d2m/plonetheme.zopeorg>`_.
 
 Theming tools features
------------------------
+----------------------
 
 Plone theming suite includes some Plone products and configurations like these:
 
@@ -149,59 +158,113 @@ Plone theming suite includes some Plone products and configurations like these:
 - `Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_ 
   for adds a doormat viewlet and installs it in the Plone footer.
 
+- `collective.behavior.localdiazo <https://pypi.python.org/pypi/collective.behavior.localdiazo>`_ 
+  for add Dexterity behavior to enable a local Diazo theme. for Plone.
+
+- `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ 
+  for add Dexterity behavior to enable a local theme skin for Plone.
+
+Fonts tools features
+--------------------
+
+Plone theming suite includes some Plone products and configurations like these:
+
 - `collective.fontawesome <https://pypi.python.org/pypi/collective.fontawesome>`_ 
   for add Font Awesome for Plone.
 
 - `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
   for add Googlefonts for Plone.
 
-- `collective.behavior.localdiazo <https://pypi.python.org/pypi/collective.behavior.localdiazo>`_ for add Dexterity behavior to enable a local Diazo theme. for Plone.
-
-- `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ for add Dexterity behavior to enable a local theme skin for Plone.
-
-JQuery tools features
+Mobile tools features
 ---------------------
 
-Plone theming suite includes some JQuery features like these:
+Plone theming suite includes some Mobile tools features like these:
 
-- `zettwerk.ui <https://pypi.python.org/pypi/zettwerk.ui>`_ add `jquery.ui's themeroller <http://jqueryui.com/themeroller/>`_ to plone 4 for easy theme customization.
+- `uwosh.mobile.tools <http://www.uwosh.edu/ploneprojects/software/uwosh.mobile.tools/>`_, 
+  adds mobile tools, detection and libraries to Plone 4.
 
-- `zettwerk.mobile <https://pypi.python.org/pypi/zettwerk.mobile>`_ add jquery.mobile based themes for plone with `jquery.mobile's themeroller <http://themeroller.jquerymobile.com/>`_.
+- `zettwerk.mobiletheming <https://github.com/collective/zettwerk.mobiletheming>`_, 
+  switching mobile themes based on urls to Plone 4.
+
+- `medialog.mobilethemeTwo <https://github.com/espenmn/medialog.mobilethemeTwo>`_ 
+  a mobile theme for zettwerk.mobiletheming.
+
+jQuery features
+---------------
+
+Plone theming suite includes some jQuery features like these:
+
+- `zettwerk.ui <https://pypi.python.org/pypi/zettwerk.ui>`_ add 
+  `jquery.ui's themeroller <http://jqueryui.com/themeroller/>`_ to Plone 4 
+  for easy theme customization.
+
+- `zettwerk.mobile <https://pypi.python.org/pypi/zettwerk.mobile>`_ add 
+  jquery.mobile based themes for plone with 
+  `jquery.mobile's themeroller <http://themeroller.jquerymobile.com/>`_.
 
 CSS Frameworks for Plone
 ------------------------
 
 Plone theming suite includes some CSS Frameworks for Plone like these:
 
-- `diazoframework.plone <https://github.com/TH-code/diazoframework.plone>`_ is the base Diazo Framework for Plone.
+- `diazoframework.plone <https://github.com/TH-code/diazoframework.plone>`_ 
+  is the base Diazo Framework for Plone.
 
-- `diazoframework.amazium <https://github.com/TH-code/diazoframework.amazium>`_ that integrates the `Amazium CSS framework <http://www.amazium.co.uk/>`_ into Plone.
+- `diazoframework.amazium <https://github.com/TH-code/diazoframework.amazium>`_ 
+  that integrates the `Amazium CSS framework <http://www.amazium.co.uk/>`_ into Plone.
 
-- `diazoframework.baseline <https://github.com/TH-code/diazoframework.baseline>`_ that integrates the `Baseline CSS framework <http://baselinecss.com/>`_ into Plone.
+- `diazoframework.baseline <https://github.com/TH-code/diazoframework.baseline>`_ 
+  that integrates the `Baseline CSS framework <http://baselinecss.com/>`_ into Plone.
 
-- `diazoframework.bootstrap <https://github.com/TH-code/diazoframework.bootstrap>`_ that integrates the `Twitter Bootstrap CSS framework <http://twitter.github.io/bootstrap/>`_ into Plone.
+- `diazoframework.bootstrap <https://github.com/TH-code/diazoframework.bootstrap>`_ 
+  that integrates the `Twitter Bootstrap CSS framework <http://twitter.github.io/bootstrap/>`_ 
+  into Plone.
 
-- `diazoframework.foundation <https://github.com/TH-code/diazoframework.foundation>`_ that integrates the `Zurb Foundation CSS framework <http://foundation.zurb.com/>`_ into Plone.
+- `diazoframework.foundation <https://github.com/TH-code/diazoframework.foundation>`_ 
+  that integrates the `Zurb Foundation CSS framework <http://foundation.zurb.com/>`_ 
+  into Plone.
 
-- `diazoframework.goldilocks <https://github.com/TH-code/diazoframework.goldilocks>`_ that integrates the `Goldilocks Approach CSS framework <http://goldilocksapproach.com/>`_ into Plone.
+- `diazoframework.goldilocks <https://github.com/TH-code/diazoframework.goldilocks>`_ 
+  that integrates the `Goldilocks Approach CSS framework <http://goldilocksapproach.com/>`_ 
+  into Plone.
 
-- `diazoframework.kube <https://github.com/TH-code/diazoframework.kube>`_ that integrates the `Kube CSS framework <http://imperavi.com/kube/>`_ into Plone.
+- `diazoframework.kube <https://github.com/TH-code/diazoframework.kube>`_ 
+  that integrates the `Kube CSS framework <http://imperavi.com/kube/>`_ into Plone.
 
-- `diazoframework.purecss <https://github.com/TH-code/diazoframework.purecss>`_ that integrates the `PureCSS framework <http://purecss.io/>`_ into Plone.
+- `diazoframework.purecss <https://github.com/TH-code/diazoframework.purecss>`_ that 
+  integrates the `PureCSS framework <http://purecss.io/>`_ into Plone.
 
-- `diazoframework.skeleton <https://github.com/TH-code/diazoframework.skeleton>`_ that integrates the `Skeleton CSS framework <http://www.skeleton.co.uk/>`_ into Plone.
+- `diazoframework.skeleton <https://github.com/TH-code/diazoframework.skeleton>`_ that 
+  integrates the `Skeleton CSS framework <http://www.skeleton.co.uk/>`_ into Plone.
 
-- `diazotheme.framework.cascade <https://github.com/TH-code/diazotheme.framework.cascade>`_ that integrates the `Cascade Framework <http://www.cascade-framework.com/>`_ into Plone.
+- `diazotheme.framework.cascade <https://github.com/TH-code/diazotheme.framework.cascade>`_ 
+  that integrates the `Cascade Framework <http://www.cascade-framework.com/>`_ into Plone.
 
-- `diazotheme.framework.gumby <https://github.com/TH-code/diazotheme.framework.gumby>`_ that integrates the `Gumby Framework <http://gumbyframework.com/>`_ into Plone.
+- `diazotheme.framework.gumby <https://github.com/TH-code/diazotheme.framework.gumby>`_ 
+  that integrates the `Gumby Framework <http://gumbyframework.com/>`_ into Plone.
 
-- `diazotheme.framework.ivory <https://github.com/TH-code/diazotheme.framework.ivory>`_ that integrates the `IVORY Framework <http://weice.in/ivory/>`_ into Plone.
+- `diazotheme.framework.ivory <https://github.com/TH-code/diazotheme.framework.ivory>`_ 
+  that integrates the `IVORY Framework <http://weice.in/ivory/>`_ into Plone.
 
-- `diazotheme.framework.metro <https://github.com/TH-code/diazotheme.framework.metro>`_ that integrates the `Metro Framework <http://metroui.org.ua/>`_ into Plone.
+- `diazotheme.framework.metro <https://github.com/TH-code/diazotheme.framework.metro>`_ 
+  that integrates the `Metro Framework <http://metroui.org.ua/>`_ into Plone.
 
-- `diazotheme.framework.wirefy <https://github.com/TH-code/diazotheme.framework.wirefy>`_ that integrates the `Wirefy Framework <http://getwirefy.com/>`_ into Plone.
+- `diazotheme.framework.wirefy <https://github.com/TH-code/diazotheme.framework.wirefy>`_ 
+  that integrates the `Wirefy Framework <http://getwirefy.com/>`_ into Plone.
 
-- `diazotheme.framework.yaml4 <https://github.com/TH-code/diazotheme.framework.yaml4>`_ that integrates the `YAML CSS Framework <http://www.yaml.de/>`_ into Plone.
+- `diazotheme.framework.yaml4 <https://github.com/TH-code/diazotheme.framework.yaml4>`_ 
+  that integrates the `YAML CSS Framework <http://www.yaml.de/>`_ into Plone.
+
+Pre-processors CSS tools features
+---------------------------------
+
+Plone theming suite includes support for pre-processors CSS LESS y SASS like these:
+
+- `collective.lesscss <http://plone.org/products/collective.lesscss>`_ 
+  for integrate the pre-processor CSS LESS for Plone.
+
+- `collective.scss <https://github.com/collective/collective.scss>`_ 
+  for integrate the pre-processor CSS SASS for Plone.
 
 Development installation
 ------------------------
@@ -221,7 +284,8 @@ Once the buildout has finished, you can access the site by starting up Plone. ::
 
 Then go to the site in your browser: http://localhost:8080/Plone
 
-The themes any aren't currently enabled, so you'll have to login to enable a theme for your Plone Site. ::
+The themes any aren't currently enabled, so you'll have to login to enable a 
+theme for your Plone Site. ::
 
     username: admin
     password: admin
@@ -257,7 +321,8 @@ Impressive collaborations
 
 * Full name aka username
 
-For an updated list of all contributors visit the following URL: https://github.com/plone-ve/plonethemes.suite/contributors
+For an updated list of all contributors visit the following URL: 
+https://github.com/plone-ve/plonethemes.suite/contributors
 
 Reference
 =========
