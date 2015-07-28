@@ -286,8 +286,8 @@ Once the buildout has finished, you can access the site by starting up Plone. ::
 
 Then go to the site in your browser: http://localhost:8081/manage_main and log in with:
 
-    username: admin
-    password: admin
+- username: admin
+- password: admin
 
 If you haven't already done so, you will have to create a Plone site by:
 
