@@ -1,15 +1,15 @@
 Plone theming suite
 ====================
 
-The idea with this buildout configuration is show install a 
-Plone latest version, with many Plone theme skins, Diazo 
-Themes and usefull Theming tools for layout, adding custom 
-icons and fonts with third-party add-ons theming into Plone.
+The idea of this buildout configuration is to install the 
+latest version of Plone, along with many Plone theme skins, Diazo 
+themes and useful theming tools for layout, custom 
+icons and fonts and third-party theming  add-ons.
 
-Scaffold tools features
------------------------
+Scaffolding tools
+-----------------
 
-Plone theming suite includes some scaffold tools features like these:
+The Plone theming suite includes these scaffolding tools:
 
 - `zopeskel.diazotheme <https://pypi.python.org/pypi/zopeskel.diazotheme/>`_.
 
@@ -20,7 +20,7 @@ Plone theming suite includes some scaffold tools features like these:
 Plone theme skins
 -----------------
 
-In this suite are distributed around 6 differents Plone theme skins.
+Included in this suite are 6 differents Plone theme skins:
 
 - `quintagroup.theme.sunrain <https://github.com/quintagroup/quintagroup.theme.sunrain>`_.
 
@@ -37,7 +37,7 @@ In this suite are distributed around 6 differents Plone theme skins.
 Diazo Themes
 ------------
 
-In this suite are distributed around 53 differents Generic Diazo themes.
+Included in this suite are over 50 different Diazo themes:
 
 - `chalkboardtheme_plone <https://github.com/tkimnguyen/chalkboardtheme_plone>`_.
 
@@ -149,10 +149,10 @@ In this suite are distributed around 53 differents Generic Diazo themes.
 
 - `plonetheme.zopeorg <https://github.com/d2m/plonetheme.zopeorg>`_.
 
-Theming tools features
-----------------------
+Theming tools
+-------------
 
-Plone theming suite includes some Plone products and configurations like these:
+The Plone theming suite includes these theming and layout tools:
 
 - `collective.cover <https://pypi.python.org/pypi/collective.cover>`_ 
   for edit to create front pages and other composite pages.
@@ -166,10 +166,10 @@ Plone theming suite includes some Plone products and configurations like these:
 - `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ 
   for add Dexterity behavior to enable a local theme skin for Plone.
 
-Fonts tools features
---------------------
+Font tools
+----------
 
-Plone theming suite includes some Plone products and configurations like these:
+The Plone theming suite includes these font tools:
 
 - `collective.fontawesome <https://pypi.python.org/pypi/collective.fontawesome>`_ 
   for add Font Awesome for Plone.
@@ -177,10 +177,10 @@ Plone theming suite includes some Plone products and configurations like these:
 - `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
   for add Googlefonts for Plone.
 
-Mobile tools features
----------------------
+Mobile tools
+------------
 
-Plone theming suite includes some Mobile tools features like these:
+Plone theming suite includes these mobile tools:
 
 - `uwosh.mobile.tools <http://www.uwosh.edu/ploneprojects/software/uwosh.mobile.tools/>`_, 
   adds mobile tools, detection and libraries to Plone 4.
@@ -191,10 +191,10 @@ Plone theming suite includes some Mobile tools features like these:
 - `medialog.mobilethemeTwo <https://github.com/espenmn/medialog.mobilethemeTwo>`_ 
   a mobile theme for zettwerk.mobiletheming.
 
-jQuery features
----------------
+jQuery tools
+------------
 
-Plone theming suite includes some jQuery features like these:
+The Plone theming suite includes these jQuery tools:
 
 - `zettwerk.ui <https://pypi.python.org/pypi/zettwerk.ui>`_ add 
   `jquery.ui's themeroller <http://jqueryui.com/themeroller/>`_ to Plone 4 
@@ -207,7 +207,7 @@ Plone theming suite includes some jQuery features like these:
 CSS Frameworks for Plone
 ------------------------
 
-Plone theming suite includes some CSS Frameworks for Plone like these:
+The Plone theming suite includes these CSS frameworks for Plone:
 
 - `diazoframework.plone <https://github.com/TH-code/diazoframework.plone>`_ 
   is the base Diazo Framework for Plone.
@@ -257,16 +257,16 @@ Plone theming suite includes some CSS Frameworks for Plone like these:
 - `diazotheme.framework.yaml4 <https://github.com/TH-code/diazotheme.framework.yaml4>`_ 
   that integrates the `YAML CSS Framework <http://www.yaml.de/>`_ into Plone.
 
-Pre-processors CSS tools features
----------------------------------
+CSS Pre-Processing tools
+------------------------
 
-Plone theming suite includes support for pre-processors CSS LESS y SASS like these:
+The Plone theming suite includes support for these CSS pre-processors:
 
 - `collective.lesscss <http://plone.org/products/collective.lesscss>`_ 
-  for integrate the pre-processor CSS LESS for Plone.
+  integrates the LESS CSS pre-processor with Plone.
 
 - `collective.scss <https://github.com/collective/collective.scss>`_ 
-  for integrate the pre-processor CSS SASS for Plone.
+  integrates the SASS CSS pre-processor with Plone.
 
 Development installation
 ------------------------
@@ -284,9 +284,9 @@ Once the buildout has finished, you can access the site by starting up Plone. ::
 
     $ bin/instance fg
 
-Then go to the site in your browser: http://localhost:8080/Plone
+Then go to the site in your browser: http://localhost:8081/Plone
 
-The themes any aren't currently enabled, so you'll have to login to enable a 
+No themes are enabled by default, so you'll have to login to enable a 
 theme for your Plone Site. ::
 
     username: admin
