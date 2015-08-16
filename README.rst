@@ -321,6 +321,12 @@ Original Author
 Impressive collaborations
 -------------------------
 
+* Eveli Ramirez aka Eveli
+
+* Flamel Canto aka flamelcanto
+
+* T. Kim Nguyen aka tkimnguyen
+
 * Full name aka username
 
 For an updated list of all contributors visit the following URL: 
