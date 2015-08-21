@@ -284,13 +284,56 @@ Once the buildout has finished, you can access the site by starting up Plone. ::
 
     $ bin/instance fg
 
-Then go to the site in your browser: http://localhost:8081/Plone
+Then go to the site in your browser: http://localhost:8081/manage_main and log in with:
 
-No themes are enabled by default, so you'll have to login to enable a 
-theme for your Plone Site. ::
+- username: admin
+- password: admin
 
-    username: admin
-    password: admin
+If you haven't already done so, you will have to create a Plone site by:
+
+- click on the "Create a new Plone site" button
+- you can leave all the default values in the form that appears
+- scroll to the bottom of the page and click on the "Create Plone Site" button
+
+Enabling Themes
+---------------
+
+A new Plone 4.x site uses the Sunburst theme by default.
+
+To enable the installed themes:
+
+- at the top right corner of the page click on the "Admin" drop down menu 
+- choose "Site Setup"
+- click on "Add-ons"
+- in the "Available add-ons" list at the top of the page, check the box next to the theme you want to enable
+- scroll down and press the "Activate" button
+
+Some Diazo themes may hide the editing or management pages of your site. In those cases, you will want to browse to your site using the URL http://127.0.0.1:8080/Plone. You may have to log in again using the same username and password as above (this is because the Plone authentication cookie is dependent on the site URL, and it treats "localhost" and "127.0.0.1" as different sites).
+
+Once you have enabled a Diazo theme, you can use the Diazo theming control panel to activate other Diazo themes:
+
+- navigate to "Site Setup"
+- click on the "Theming" control panel (alternatively, you can navigate to http://127.0.0.1:8081/Plone/@@theming-controlpanel or to http://localhost:8081/Plone/@@theming-controlpanel; the "Theming" control panel will always be unthemed)
+- click the "Activate" button for the theme you want to enable
+
+Disabling Themes
+----------------
+
+You can disable a Diazo theme without having to deactivate it using the "Add-ons" panel:
+
+To disable a Diazo theme:
+
+- navigate to "Site Setup"
+- click on the "Theming" control panel (alternatively, you can navigate to http://127.0.0.1:8081/Plone/@@theming-controlpanel or to http://localhost:8081/Plone/@@theming-controlpanel; the "Theming" control panel will always be unthemed)
+- locate the Diazo theme which has a "Deactivate" button (you can use your browser's Find function, e.g. Control-F or Command-F, to search for "Deactivate")
+- click on the "Deactivate" button
+
+"Classic", or non-Diazo, Plone themes must be disabled using the "Add-ons" control panel:
+
+- navigate to "Site Setup"
+- click on the "Add-ons" control panel (alternatively, you can navigate to http://127.0.0.1:8081/Plone/prefs_install_products_form or http://localhost:8081/Plone/prefs_install_products_form)
+- in the "Activated add-ons" list at the bottom of the page, check the box next to the theme you want to disable
+- scroll down and press the "Deactivate" button
 
 Others resources for Plone themes
 ---------------------------------
