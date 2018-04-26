@@ -20,7 +20,7 @@ The Plone theming suite includes these scaffolding tools:
 Plone theme skins
 -----------------
 
-Included in this suite are 6 differents Plone theme skins:
+Included in this suite are 6 different Plone theme skins:
 
 - `quintagroup.theme.sunrain <https://github.com/quintagroup/quintagroup.theme.sunrain>`_.
 
@@ -286,7 +286,7 @@ Once the buildout has finished, you can access the site by starting up Plone. ::
 
 Then go to the site in your browser: http://localhost:8081/manage_main and log in with:
 
-- username: admin
+- user: admin
 - password: admin
 
 If you haven't already done so, you will have to create a Plone site by:
@@ -308,7 +308,7 @@ To enable the installed themes:
 - in the "Available add-ons" list at the top of the page, check the box next to the theme you want to enable
 - scroll down and press the "Activate" button
 
-Some Diazo themes may hide the editing or management pages of your site. In those cases, you will want to browse to your site using the URL http://127.0.0.1:8080/Plone. You may have to log in again using the same username and password as above (this is because the Plone authentication cookie is dependent on the site URL, and it treats "localhost" and "127.0.0.1" as different sites).
+Some Diazo themes may hide the editing or management pages of your site. In those cases, you will want to browse to your site using the URL http://127.0.0.1:8080/Plone. You may have to log in again using the same user name and password as above (this is because the Plone authentication cookie is dependent on the site URL, and it treats "localhost" and "127.0.0.1" as different sites).
 
 Once you have enabled a Diazo theme, you can use the Diazo theming control panel to activate other Diazo themes:
 
@@ -338,9 +338,9 @@ To disable a Diazo theme:
 Others resources for Plone themes
 ---------------------------------
 
-- `PloneThemes.org <http://plonethemes.org/>`_.
+.. - `PloneThemes.org <http://plonethemes.org/>`_.
 
-- `Beyondskins themes for Plone <http://www.beyondskins.com/>`_.
+- `Beyondskins themes for Plone <https://github.com/search?q=beyondskins&ref=opensearch>`_.
 
 - `Beautiful Design and Powerful Plone Features <http://themes.quintagroup.com/>`_.
 
@@ -368,7 +368,7 @@ Impressive collaborations
 
 * Flamel Canto aka flamelcanto
 
-* T. Kim Nguyen aka tkimnguyen
+* T\. Kim Nguyen aka tkimnguyen
 
 * Full name aka username
 
