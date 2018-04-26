@@ -11,11 +11,11 @@ Scaffolding tools
 
 The Plone theming suite includes these scaffolding tools:
 
-- `zopeskel.diazotheme <https://pypi.python.org/pypi/zopeskel.diazotheme/>`_.
+- `zopeskel.diazotheme <https://pypi.org/project/zopeskel.diazotheme/>`_.
 
-- `vs.zopeskel.diazo <https://pypi.python.org/pypi/vs.zopeskel.diazo/>`_.
+- `vs.zopeskel.diazo <https://pypi.org/project/vs.zopeskel.diazo/>`_.
 
-- `toutpt.zopeskel <https://pypi.python.org/pypi/toutpt.zopeskel/>`_.
+- `toutpt.zopeskel <https://pypi.org/project/toutpt.zopeskel/>`_.
 
 Plone theme skins
 -----------------
@@ -67,7 +67,7 @@ Included in this suite are over 50 different Diazo themes:
 
 - `diazotheme.bootstrap <https://github.com/TH-code/diazotheme.bootstrap>`_.
 
-- `vs.bootstrap.tinymce <https://pypi.python.org/pypi/vs.bootstrap.tinymce>`_.
+- `vs.bootstrap.tinymce <https://pypi.org/project/vs.bootstrap.tinymce>`_.
 
 - `diazotheme.bootswatch <https://github.com/TH-code/diazotheme.bootswatch>`_.
 
@@ -154,16 +154,16 @@ Theming tools
 
 The Plone theming suite includes these theming and layout tools:
 
-- `collective.cover <https://pypi.python.org/pypi/collective.cover>`_ 
+- `collective.cover <https://pypi.org/project/collective.cover>`_ 
   for edit to create front pages and other composite pages.
 
-- `Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_ 
+- `Products.Doormat <https://pypi.org/project/Products.Doormat>`_ 
   for adds a doormat viewlet and installs it in the Plone footer.
 
-- `collective.behavior.localdiazo <https://pypi.python.org/pypi/collective.behavior.localdiazo>`_ 
+- `collective.behavior.localdiazo <https://pypi.org/project/collective.behavior.localdiazo>`_ 
   for add Dexterity behavior to enable a local Diazo theme. for Plone.
 
-- `collective.behavior.localskin <https://pypi.python.org/pypi/collective.behavior.localskin>`_ 
+- `collective.behavior.localskin <https://pypi.org/project/collective.behavior.localskin>`_ 
   for add Dexterity behavior to enable a local theme skin for Plone.
 
 Font tools
@@ -171,10 +171,10 @@ Font tools
 
 The Plone theming suite includes these font tools:
 
-- `collective.fontawesome <https://pypi.python.org/pypi/collective.fontawesome>`_ 
+- `collective.fontawesome <https://pypi.org/project/collective.fontawesome>`_ 
   for add Font Awesome for Plone.
 
-- `medialog.googlefonts <https://pypi.python.org/pypi/medialog.googlefonts>`_ 
+- `medialog.googlefonts <https://pypi.org/project/medialog.googlefonts>`_ 
   for add Googlefonts for Plone.
 
 Mobile tools
@@ -196,11 +196,11 @@ jQuery tools
 
 The Plone theming suite includes these jQuery tools:
 
-- `zettwerk.ui <https://pypi.python.org/pypi/zettwerk.ui>`_ add 
+- `zettwerk.ui <https://pypi.org/project/zettwerk.ui>`_ add 
   `jquery.ui's themeroller <http://jqueryui.com/themeroller/>`_ to Plone 4 
   for easy theme customization.
 
-- `zettwerk.mobile <https://pypi.python.org/pypi/zettwerk.mobile>`_ add 
+- `zettwerk.mobile <https://pypi.org/project/zettwerk.mobile>`_ add 
   jquery.mobile based themes for plone with 
   `jquery.mobile's themeroller <http://themeroller.jquerymobile.com/>`_.
 
