@@ -18,12 +18,16 @@
 .svn/
 .project
 .pydevproject
+pip-selfcheck.json
 bin/
 build/
 develop-eggs/
 downloads/
 eggs/
 fake-eggs/
+include/
+lib/
+local/
 parts/
 dist/
 var/
