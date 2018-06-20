@@ -18,6 +18,7 @@
 .svn/
 .project
 .pydevproject
+*.sublime-workspace
 pip-selfcheck.json
 bin/
 build/
