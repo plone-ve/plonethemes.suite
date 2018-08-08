@@ -23,6 +23,7 @@ pip-selfcheck.json
 bin/
 build/
 develop-eggs/
+dist/
 downloads/
 eggs/
 fake-eggs/
@@ -30,7 +31,6 @@ include/
 lib/
 local/
 parts/
-dist/
 var/
 
 
