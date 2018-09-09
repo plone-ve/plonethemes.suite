@@ -25,6 +25,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+docs/_build/
 eggs/
 fake-eggs/
 include/

@@ -1,0 +1,329 @@
+{# TEMPLATE VAR SETTINGS #}
+{%- set url_root = pathto('', 1) %}
+{%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+{%- if not embedded and docstitle %}
+  {%- set titlesuffix = " &mdash; "|safe + docstitle|e %}
+{%- else %}
+  {%- set titlesuffix = "" %}
+{%- endif %}
+{% set css_files = css_files + [
+    "_static/css/plone-fonts.css",
+    "_static/css/font-awesome.css",
+    "_static/css/bootstrap.min.css",
+    "_static/pygments.css",
+    ]%}
+{% set script_files = script_files + [
+    "_static/js/bootstrap.min.js",
+    "_static/js/version_switch.js"
+    ]%}
+
+
+{% macro breadcrumb(name, version_selector=False, lang_selector=False)%}
+<div class="breadcrumbs-container" id="breadcrumbs-{{name}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 hidden-xs">
+        <div role="navigation" aria-label="breadcrumbs navigation">
+          <ul class="breadcrumb">
+            {#<li><a href="https://plone.org">Plone</a></li>#}
+            <li class="master">
+ <!--             {% if theme_always_show_version_switcher or (theme_version_switcher and version|length > 1) %}
+                <span class="version_switcher">
+                  <label for="versionpicker-{{name}}">Version</label>
+                  <select id="versionpicker-{{name}}">
+                  {% for vers in version %}
+                    <option value="{{vers}}" {% if vers == theme_selected_version %}selected="selected" {% endif %}>{{vers}}</option>
+                  {% endfor %}
+                  </select>
+                </span>
+              {% endif %} -->
+              {% if theme_always_show_language_switcher or (theme_language_switcher and theme_doc_languages|length > 1) %}
+                <span class="lang_switcher">
+                  <label for="languagepicker-{{name}}">Language</label>
+                  <select id="languagepicker-{{name}}">
+                  {% for lang in theme_doc_languages %}
+                    <option value="{{lang.lang_code}}" {% if lang.lang_code == theme_doc_language %}selected="selected" {% endif %}>{{lang.lang_name}}</option>
+                  {% endfor %}
+                  </select>
+                </span>
+              {% endif %}
+              <a href="{{ pathto(master_doc) }}">Documentation</a>
+            </li>
+            {% for doc in parents %}
+              <li><a href="{{ doc.link|e }}">{{ doc.title }}</a></li>
+            {% endfor %}
+            <li class="breadcrumb-item">{{ title }}</li>
+            <!--
+            <li class="breadcrumb-source">
+              {% if display_github %}
+                <a href="https://github.com/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}.rst" class="fa fa-github"> Edit on GitHub</a>
+              {% elif display_bitbucket %}
+                <a href="https://bitbucket.org/{{ bitbucket_user }}/{{ bitbucket_repo }}/src/{{ bitbucket_version}}{{ conf_py_path }}{{ pagename }}.rst" class="fa fa-bitbucket"> Edit on Bitbucket</a>
+              {% elif show_source and has_source and sourcename %}
+                <a href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow"> View page source</a>
+              {% endif %}
+            </li>
+            -->
+          </ul>
+        </div>
+      </div>
+      {% if next or prev %}
+      <div class="rst-buttons col-sm-3 col-xs-12" role="navigation" >
+        <div role="navigation" aria-label="breadcrumbs navigation">
+
+          <ul class="breadcrumb">
+          {% if prev %}
+            <li class="breadcrumb-prev"><a href="{{ prev.link|e }}" title="{{ prev.title|striptags|e }}">
+              <i class="fa fa-arrow-circle-left" aria-hidden="true" title="Previous"></i> <span class="sr-only">Previous</span></a></li>
+          {% endif %}
+          {% if next %}
+            <li class="breadcrumb-next"><a href="{{ next.link|e }}" title="{{ next.title|striptags|e }}"><span class="sr-only">Next </span><i class="fa fa-arrow-circle-right" aria-hidden="true" title="Next"></i></a></li>
+          {% endif %}
+          </ul>
+        </div>
+      </div>
+
+
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9"  {% if language %} lang="{{language}}" {% else %} lang="en" {% endif %}  > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" {% if language %} lang="{{language}}" {% else %} lang="en" {% endif %} > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block htmltitle %}
+  <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+  {% endblock %}
+
+  {# FAVICON #}
+  {% if theme_favicon %}
+    <link rel="icon" href="{{ pathto('_static/' + theme_favicon, 1) }}" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ pathto('_static/' + theme_favicon, 1) }}" />
+    <link type="image/x-icon" href="{{ pathto('_static/' + theme_favicon, 1) }}" />
+  {% endif %}
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLDW8HG');</script>
+<!-- End Google Tag Manager -->
+
+  <script type="text/javascript" src="{{ pathto('_static/jquery.js', 1) }}"></script>
+
+  {# OPENSEARCH #}
+  {% if not embedded %}
+    {% if use_opensearch %}
+      <link rel="search" type="application/opensearchdescription+xml" title="{%trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans%}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+   {% endif %}
+
+  {% endif %}
+
+  {% for cssfile in css_files %}
+    <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+  {% endfor %}
+
+  <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+
+  {%- block linktags %}
+    {%- if hasdoc('about') %}
+        <link rel="author" title="{{ _('About these documents') }}"
+              href="{{ pathto('about') }}"/>
+    {%- endif %}
+    {%- if hasdoc('genindex') %}
+        <link rel="index" title="{{ _('Index') }}"
+              href="{{ pathto('genindex') }}"/>
+    {%- endif %}
+    {%- if hasdoc('search') %}
+        <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}"/>
+    {%- endif %}
+    {%- if hasdoc('copyright') %}
+        <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}"/>
+    {%- endif %}
+    <link rel="top" title="{{ docstitle|e }}" href="{{ pathto('index') }}"/>
+    {%- if parents %}
+        <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}"/>
+    {%- endif %}
+    {%- if next %}
+        <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}"/>
+    {%- endif %}
+    {%- if prev %}
+        <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}"/>
+    {%- endif %}
+  {%- endblock %}
+  {%- block extrahead %} {% endblock %}
+
+  {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+</head>
+
+<body role="document">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLDW8HG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+{% include "topbar.html" %}
+{% include "header.html" %}
+
+{{breadcrumb('top', True, True)}}
+
+
+<div class="master">
+  <div class="container">
+    {%- if theme_show_version_warning %}
+    {% include "version_warning.html" %}
+    {%- endif %}
+    <div class="row">
+      <div class="col-sm-4 col-lg-3 hidden-xs nopadding">
+      <aside class="sidebarwrapper">
+        {# SIDE NAV, TOGGLES ON MOBILE #}
+        <nav data-toggle="nav-shift" class="nav-side">
+          <div role="navigation" aria-label="navigation">
+            {% set toctree = toctree(maxdepth=-1, collapse=True, includehidden=True) %}
+            {% if toctree %}
+                {{ toctree }}
+            {% else %}
+                <!-- Local TOC -->
+                <div class="local-toc">{{ toc }}</div>
+            {% endif %}
+          </div>
+        </nav>
+      </aside>
+<!--       {% if theme_contributing_link %}
+      <aside class="call_to_action">
+        <a href="{{ theme_contributing_link|e }}" ><i class="fa fa-pencil-square-o"></i>Contribute</a>
+      </aside>
+      {% endif %} -->
+
+  <!-- 
+    {% include "version_buttondropdown.html" %} -->
+
+    </div>
+    <div class="col-xs-12 col-sm-8 col-lg-9 content-column">
+      <div class="row visible-xs">
+        <div class="col-xs-12" >
+          {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
+            <!-- {% include "version_buttondropdown.html" %} -->
+          <nav class="nav-top" role="navigation" aria-label="top navigation">
+            <i data-toggle="nav-top" class="fa fa-bars"></i>
+            <a href="{{ pathto(url_root+'sitemap') }}">Table Of Content</a>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <section role="main" class="col-xs-12">
+          {% block body %}{% endblock %}
+        </section>
+      </div>
+    </div>
+    </div>
+  </div>
+  {% include "versions.html" %}
+</div>
+
+{{breadcrumb('bottom', True, True)}}
+
+{% include "footer.html" %}
+
+{% block footer %}
+
+{# STICKY NAVIGATION #}
+{#
+{% if theme_sticky_navigation %}
+<script type="text/javascript">
+    jQuery(function () {
+        SphinxRtdTheme.StickyNav.enable();
+    });
+</script>
+{% endif %}
+#}
+
+{% if not embedded %}
+  <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+          URL_ROOT: '{{ url_root }}',
+          VERSION: '{{ release|e }}',
+          VERSIONS: {{ version }},
+          LANGUAGE: '{{ theme_doc_language|e }}',
+          LANGUAGES: {% if theme_doc_languages|length > 0 %}['{{ theme_doc_languages|join("', '", attribute='lang_code') }}']{% else %}[]{% endif %},
+          USE_VERSION_SWITCHER: {{ (theme_always_show_version_switcher or (theme_version_switcher and version|length > 1))|lower }},
+          USE_LANGUAGE_SWITCHER: {{ (theme_always_show_language_switcher or (theme_language_switcher and theme_doc_languages|length > 1))|lower }},
+          COLLAPSE_INDEX: false,
+          FILE_SUFFIX: '{{ '' if no_search_suffix else file_suffix }}',
+          HAS_SOURCE: {{ has_source|lower }}
+      };
+  </script>
+
+  {%- for scriptfile in script_files %}
+    <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+  {%- endfor %}
+{% endif %}
+
+{%- if theme_use_ga %}
+<div class="footer ga-footer">This page uses <a href="http://analytics.google.com/"> Google Analytics</a> to collect statistics. You can disable it by blocking the JavaScript coming from www.google-analytics.com.
+  <script type="text/javascript" >
+  (function(i,s,o,g,r,a,m){
+    i['GoogleAnalyticsObject']=r;
+    i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)
+    },i[r].l=1*new Date();
+    a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];
+    a.async=1;
+    a.src=g;
+    m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ theme_googleanalytics_id }}', '{{ theme_googleanalytics_domain }}');
+  ga('send', 'pageview');
+  </script>
+</div>
+{%- endif %}
+
+<!-- Below block includes our freshdesk widget -->
+<!-- {%- if theme_use_freshdesk %}
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+    FreshWidget.init("", {"queryString": "&widgetType=popup&captcha=yes&searchArea=no&formTitle=Report a Bug", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Report a Bug", "buttonColor": "white", "buttonBg": "#3ea07f", "alignment": "2", "offset": "235px", "formHeight": "600px", "captcha": "yes", "url": "https://plone.freshdesk.com"} );
+</script>
+{%- endif %} -->
+
+<!-- Below block includes our gitter widget -->
+<!-- {%- if theme_use_gitter %}
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'plone/public'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer>
+</script>
+{%- endif %} -->
+
+<!-- Below block includes custom search per version -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+  apiKey: '7ab1cfcbe98c5ba873049f48e18ac2a3',
+  indexName: 'plone',
+  inputSelector: '#rtd-search-form input[name="q"]',
+  algoliaOptions: { 'facetFilters': ["tags:{{ theme_selected_version }}"] },
+  debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+{% endblock %}
+
+</body>
+</html>
