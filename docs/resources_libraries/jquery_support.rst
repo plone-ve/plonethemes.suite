@@ -112,25 +112,27 @@ The old UNIX design philosophy **"tools, not policy"** is very important in web 
 plone.app.jquerytools
 ^^^^^^^^^^^^^^^^^^^^^
 
-The `plone.app.jquerytools`_ package adds the integration of :ref:`jquery.tools <jquery-tools-library>` library to Plone.
+The `plone.app.jquerytools`_ package adds the integration of :ref:`jquery.tools <jquery-tools-library>` 
+library to Plone.
 
-This is used as a Plone product, adding GenericSetup profiles and control panel, or as a Zope record of resource :ref:`jquery.ui <jquery-ui-library>`.
+This is used as a Plone product, adding GenericSetup profiles and control panel, or as a Zope 
+record of resource :ref:`jquery.ui <jquery-ui-library>`.
 
-``plone.app.jquerytools`` adds :ref:`jquery.tools <jquery-tools-library>` and some related overlay and form-handling JavaScript libraries to Plone.
+``plone.app.jquerytools`` adds :ref:`jquery.tools <jquery-tools-library>` and some related overlay 
+and form-handling JavaScript libraries to Plone.
 
 Usage
 `````
 
-Plone developers will wish to use ``plone.app.jquerytools`` to provide DOM
-popups, particularly if they require AJAX. There is extensive support
-for AJAX form posting. It's also useful for adding dateinput and forminput
-widgets that are HTML5 compatible.
+Plone developers will wish to use ``plone.app.jquerytools`` to provide DOM popups, particularly 
+if they require AJAX. There is extensive support for AJAX form posting. It's also useful for 
+adding dateinput and forminput widgets that are HTML5 compatible.
 
-The AJAX and AJAX-form support is Plone-specific, and is documented in this module.
-Dateinput, rangeinput, accordions, and tooltips are all unchanged from
-jquerytools, and the jquerytools docs should be consulted.
+The AJAX and AJAX-form support is Plone-specific, and is documented in this module. Dateinput, 
+rangeinput, accordions, and tooltips are all unchanged from jquerytools, and the jquerytools 
+docs should be consulted.
 
-The ``plone.app.jquerytools`` add-on look like the following screenshots:
+The ``plone.app.jquerytools`` add-on generates Forms that look like the following:
 
 .. figure:: ../_static/jquerytools_00.png
   :align: center
@@ -138,6 +140,8 @@ The ``plone.app.jquerytools`` add-on look like the following screenshots:
   :alt: The Plone Login Form Default
 
   The Plone Login Form Default.
+
+Other example of Forms generating with ``plone.app.jquerytools`` look like the following:
 
 .. figure:: ../_static/jquerytools_01.png
   :align: center
@@ -197,8 +201,8 @@ and solve a plethora of use cases. If you're new to ``jQuery UI``, check out our
 collective.js.jqueryui
 ^^^^^^^^^^^^^^^^^^^^^^
 
-The `collective.js.jqueryui`_ package add all :ref:`jquery.ui <jquery-ui-library>` resources files 
-to Plone 4 for integrate in your Plone theme.
+The `collective.js.jqueryui`_ package add all :ref:`jquery.ui <jquery-ui-library>` resources 
+files to Plone 4 for integrate in your Plone theme.
 
 You can changes to the ``JQueryUI`` settings via control panel with the following steps:
 
@@ -214,16 +218,18 @@ You can changes to the ``JQueryUI`` settings via control panel with the followin
 
   The ``collective.js.jqueryui`` Controlpanel.
 
-Clicking at the :guilabel:`Plugins` link for enabling the :guilabel:`JQueryUI plugins settings` different options, like the following items:
+Clicking at the :guilabel:`Plugins` link for enabling the :guilabel:`JQueryUI plugins settings` 
+different options, like the following items:
 
 .. figure:: ../_static/collective_js_jqueryui_plugins_controlpanel.png
   :align: center
-  :width: 65%
+  :width: 50%
   :alt: collective.js.jqueryui Plugins Controlpanel
 
   The ``collective.js.jqueryui`` Plugins Controlpanel.
 
-Clicking at the :guilabel:`Sunburst Theme` link for enabling the :guilabel:`JQueryUI Sunburst CSS settings` different options, like the following items:
+Clicking at the :guilabel:`Sunburst Theme` link for enabling the :guilabel:`JQueryUI Sunburst CSS settings` 
+different options, like the following items:
 
 .. figure:: ../_static/collective_js_jqueryui_sunburst_controlpanel.png
   :align: center
@@ -256,7 +262,7 @@ You can changes to the ``Zettwerk UI`` settings via control panel with the follo
 
 .. figure:: ../_static/zettwerk_ui_panel.png
   :align: center
-  :width: 45%
+  :width: 30%
   :alt: zettwerk.ui Controlpanel
 
   The ``zettwerk.ui`` Controlpanel.
@@ -264,16 +270,19 @@ You can changes to the ``Zettwerk UI`` settings via control panel with the follo
 Control panel
 `````````````
 
-Clicking at the :guilabel:`Existing themes` tab for select a theme from the existing ones, like the following:
+Clicking at the :guilabel:`Existing themes` tab for select a theme from the existing ones, 
+like the following:
 
 .. figure:: ../_static/zettwerk_ui_portal_ui_tool_ui_00.png
   :align: center
-  :width: 75%
+  :width: 40%
   :alt: zettwerk.ui Themer
 
   The ``zettwerk.ui`` Themer.
 
-Clicking at the :guilabel:`Add theme` tab for create a :ref:`ThemeRoller <themeroller-webapp>` download directory integration, it is possible, to download and add new themes by hand. There are two kind of themes: :ref:`jquery.ui <jquery-ui-library>` Default themes and custom ones.
+Clicking at the :guilabel:`Add theme` tab for create a :ref:`ThemeRoller <themeroller-webapp>` 
+download directory integration, it is possible, to download and add new themes by hand. There 
+are two kind of themes: :ref:`jquery.ui <jquery-ui-library>` Default themes and custom ones.
 
 To include all the default themes follow these steps:
 
@@ -304,7 +313,7 @@ To include a custom theme follow these steps:
 
 .. figure:: ../_static/zettwerk_ui_portal_ui_tool_ui_01.png
   :align: center
-  :width: 75%
+  :width: 50%
   :alt: zettwerk.ui ThemeRoller
 
   The ``zettwerk.ui`` ThemeRoller.
@@ -338,7 +347,7 @@ devices, tablet and desktop devices.
 
 .. figure:: ../_static/jquery_mobile_logo.png
   :align: center
-  :width: 65%
+  :width: 60%
   :alt: jQuery mobile Logo
 
   ``jQuery Mobile``, a Touch-Optimized Web Framework
