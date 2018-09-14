@@ -3,7 +3,7 @@
 Beyondskins Themes
 ------------------
 
-The **Beyondskins Themes** are design by `Simples Consultoria`_.
+The `Beyondskins themes`_ for Plone are design by `Simples Consultoria`_.
 
 
 beyondskins.beyondskins
@@ -483,5 +483,6 @@ A demo using the ``beyondskins.twentythirteen`` add-on look like the following:
 
     **Twenty Thirteen** is a Plone integration of `Twenty Thirteen Wordpress Theme`_.
 
+.. _`Beyondskins themes`: https://github.com/search?q=beyondskins&ref=opensearch
 .. _`Simples Consultoria`: http://www.simplesconsultoria.com.br/
 .. _`Twenty Thirteen Wordpress Theme`: https://wordpress.com/theme/twenty-thirteen

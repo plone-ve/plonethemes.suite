@@ -3,7 +3,7 @@
 Quintagroup Themes
 ------------------
 
-The **Quintagroup Themes** are design by `Quintagroup`_.
+The `Quintagroup Themes`_ are design by `Quintagroup`_.
 
 
 quintagroup.theme.sunrain
@@ -53,4 +53,5 @@ A demo using the ``quintagroup.theme.pythonreel`` add-on look like the following
   Quintagroup Theme Pythonreel Demo at Plone front-page.
 
 
+.. _`Quintagroup Themes`: https://themes.quintagroup.com/
 .. _`Quintagroup`: https://quintagroup.com/
