@@ -38,7 +38,7 @@ There is now a separate Generic Setup profile called ``replace-plone-icons`` whi
 will replace Plone's default icons (e.g. for content types and actions) with
 Font Awesome icons.
 
-IMPORTANT: You still need to install the ``default`` profile as well.
+.. warning:: **IMPORTANT:** You still need to install the ``default`` profile as well.
 
 .. figure:: ../_static/collective_fontawesome_00.png
   :align: center
@@ -46,6 +46,8 @@ IMPORTANT: You still need to install the ``default`` profile as well.
   :alt: Replace Plone Icons with Font Awesome
 
   The ``Replace Plone Icons`` with Font Awesome.
+
+----
 
 .. _google-fonts:
 
@@ -69,12 +71,24 @@ add `Google Fonts <https://fonts.google.com>`_ for Plone.
 
   The Google Fonts Configuration
 
+
+Preview fontsheet selected
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can find a preview of the fontsheet selected here: http://yoursite.com/@@fontsheet
+
 .. figure:: ../_static/medialog_googlefonts_03.png
   :align: center
   :width: 75%
   :alt: Preview fontsheet selected
 
   The Preview fontsheet selected
+
+
+Preview all fontsheets
+^^^^^^^^^^^^^^^^^^^^^^
+
+You can find a preview of all ``Google Fonts`` supported here: http://yoursite.com/@@fontsheet_all
 
 .. figure:: ../_static/medialog_googlefonts_04.png
   :align: center
