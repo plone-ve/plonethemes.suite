@@ -3,6 +3,13 @@
 Quickstart
 ==========
 
+Requirements
+------------
+
+First you need the follow system dependencies, please, execute follow the command: ::
+
+    $ sudo apt-get update && sudo apt-get install git python-dev python-virtualenv
+
 Download source code
 --------------------
 
@@ -17,6 +24,7 @@ To get a basic development installation running follow the steps below: ::
 
     $ cd plonethemes.suite
     $ virtualenv .
+    $ source ./bin/activate
     $ pip install -r requirements.txt
     $ buildout
 
