@@ -9,7 +9,7 @@ add-ons.
 This suite included the following:
 
 * Scaffolding tools, included in this suite are 3 different packages.
-* Plone theme skins, included in this suite are 6 different Plone theme skins add-on.
+* Plone theme skins, included in this suite are 7 different Plone theme skins add-on.
 * Diazo themes, are included in this suite are over 50 different add-on.
 * Some theming and layout tools.
 * Some Web font tools.
