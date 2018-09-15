@@ -9,7 +9,17 @@ There are others Custom Themes available:
 plonetheme.aclark_twitter
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `plonetheme.aclark_twitter <https://github.com/collective/plonetheme.aclark_twitter>`_ package include the following *Technical details*:
+The `plonetheme.aclark_twitter <https://github.com/collective/plonetheme.aclark_twitter>`_ package 
+include the following *Technical details*:
+
+- **DOCTYPE HTML:** XHTML 1.0 Transitional
+- **Stylesheet:** CSS
+- **JS support?:** No
+- **Web fonts?:** No
+- **Grid support?:** Yes
+- **Responsive?:** Yes
+- **CSS framework:** None
+- **Supported versions:** Plone 4
 
 A demo using the ``plonetheme.aclark_twitter`` add-on look like the following:
 
@@ -25,7 +35,17 @@ A demo using the ``plonetheme.aclark_twitter`` add-on look like the following:
 plonetheme.trantor
 ^^^^^^^^^^^^^^^^^^
 
-The `plonetheme.trantor <https://github.com/tristanlt/plonetheme.trantor>`_ package include the following *Technical details*:
+The `plonetheme.trantor <https://github.com/tristanlt/plonetheme.trantor>`_ package 
+include the following *Technical details*:
+
+- **DOCTYPE HTML:** HTML5
+- **Stylesheet:** CSS/:ref:`SASS/SCSS <sass>`
+- **JS support?:** :ref:`jQuery <jquery-library>`
+- **Web fonts?:** Foundation icons.
+- **Grid support?:** Yes
+- **Responsive?:** Yes
+- **CSS framework:** :ref:`Foundation CSS framework <foundation-css-framework>`
+- **Supported versions:** Plone 4
 
 A demo using the ``plonetheme.trantor`` add-on look like the following:
 
@@ -41,7 +61,17 @@ A demo using the ``plonetheme.trantor`` add-on look like the following:
 plonetheme.zopeorg
 ^^^^^^^^^^^^^^^^^^
 
-The `plonetheme.zopeorg <https://github.com/d2m/plonetheme.zopeorg>`_ package include the following *Technical details*:
+The `plonetheme.zopeorg <https://github.com/d2m/plonetheme.zopeorg>`_ package 
+include the following *Technical details*:
+
+- **DOCTYPE HTML:** XHTML 1.0 Transitional
+- **Stylesheet:** CSS
+- **JS support?:** :ref:`jQuery <jquery-library>`
+- **Web fonts?:** No
+- **Grid support?:** Yes
+- **Responsive?:** No
+- **CSS framework:** None
+- **Supported versions:** Plone 4
 
 A demo using the ``plonetheme.zopeorg`` add-on look like the following:
 
