@@ -6,29 +6,29 @@ Quintagroup Themes
 The `Quintagroup Themes`_ are design by `Quintagroup`_.
 
 
-quintagroup.theme.sunrain
-^^^^^^^^^^^^^^^^^^^^^^^^^
+quintagroup.theme.pythonreel
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `quintagroup.theme.sunrain <https://github.com/quintagroup/quintagroup.theme.sunrain>`_ package 
+The `quintagroup.theme.pythonreel <https://github.com/quintagroup/quintagroup.theme.pythonreel>`_ package 
 include the following *Technical details*:
 
 - **DOCTYPE HTML:** HTML5
-- **Stylesheet:** CSS/:ref:`LESS <less>`
+- **Stylesheet:** CSS/:ref:`SASS/SCSS <sass>`
 - **JS support?:** :ref:`jQuery <jquery-library>`
-- **Web fonts?:** :ref:`Font Awesome <font-awesome>` 4.4.0, Roboto :ref:`Google Fonts <google-fonts>`
+- **Web fonts?:** :ref:`Font Awesome <font-awesome>` 4.2.0, Yorkville
 - **Grid support?:** Yes
-- **Responsive?:** No
+- **Responsive?:** Yes
 - **CSS framework:** None
 - **Supported versions:** Plone 4
 
-A demo using the ``quintagroup.theme.sunrain`` add-on look like the following:
+A demo using the ``quintagroup.theme.pythonreel`` add-on look like the following:
 
-.. figure:: ../../_static/quintagroup_theme_sunrain.png
+.. figure:: ../../_static/quintagroup_theme_pythonreel.png
   :align: center
   :width: 55%
-  :alt: Quintagroup Theme Sunrain
+  :alt: Quintagroup Theme Pythonreel
 
-  Quintagroup Theme Sunrain Demo at Plone front-page.
+  Quintagroup Theme Pythonreel Demo at Plone front-page.
 
 ----
 
@@ -58,30 +58,29 @@ A demo using the ``quintagroup.theme.schools`` add-on look like the following:
 
 ----
 
-quintagroup.theme.pythonreel
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+quintagroup.theme.sunrain
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `quintagroup.theme.pythonreel <https://github.com/quintagroup/quintagroup.theme.pythonreel>`_ package 
+The `quintagroup.theme.sunrain <https://github.com/quintagroup/quintagroup.theme.sunrain>`_ package 
 include the following *Technical details*:
 
 - **DOCTYPE HTML:** HTML5
-- **Stylesheet:** CSS/:ref:`SASS/SCSS <sass>`
+- **Stylesheet:** CSS/:ref:`LESS <less>`
 - **JS support?:** :ref:`jQuery <jquery-library>`
-- **Web fonts?:** :ref:`Font Awesome <font-awesome>` 4.2.0, Yorkville
+- **Web fonts?:** :ref:`Font Awesome <font-awesome>` 4.4.0, Roboto :ref:`Google Fonts <google-fonts>`
 - **Grid support?:** Yes
-- **Responsive?:** Yes
+- **Responsive?:** No
 - **CSS framework:** None
 - **Supported versions:** Plone 4
 
-A demo using the ``quintagroup.theme.pythonreel`` add-on look like the following:
+A demo using the ``quintagroup.theme.sunrain`` add-on look like the following:
 
-.. figure:: ../../_static/quintagroup_theme_pythonreel.png
+.. figure:: ../../_static/quintagroup_theme_sunrain.png
   :align: center
   :width: 55%
-  :alt: Quintagroup Theme Pythonreel
+  :alt: Quintagroup Theme Sunrain
 
-  Quintagroup Theme Pythonreel Demo at Plone front-page.
-
+  Quintagroup Theme Sunrain Demo at Plone front-page.
 
 .. _`Quintagroup Themes`: https://themes.quintagroup.com/
 .. _`Quintagroup Skins Themes`: http://skins.quintagroup.com/
