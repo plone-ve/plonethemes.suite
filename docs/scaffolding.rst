@@ -3,6 +3,10 @@
 Scaffolding tools
 =================
 
+.. todo::
+    TODO write about Scaffolding tools and his values for create Plone theme packages. 
+
+
 The **"Plone theming suite"** includes the following scaffolding tools supported:
 
 - :ref:`ZopeSkel <zopeskel>`. 
