@@ -31,9 +31,15 @@ A demo using the ``plonetheme.drupal`` add-on look like the following:
 
   Plone Theme Drupal at Plone front-page.
 
+Do you want to learn more about Plone versus Drupal? Install this theme and visit the 
+URL: http://yoursite.com/@@plone-versus-drupal and looks like the following:
 
-.. note:: 
-    Do you want to learn more about Plone versus Drupal? Install this theme and visit the 
-    following URL: http://yoursite.com/@@plone-versus-drupal
+.. figure:: ../../_static/plonetheme_drupal_versus_plone.png
+  :align: center
+  :width: 55%
+  :alt: Plone vs Drupal, an incomplete copy-paste from a Plone-Users discussion
+
+  Plone vs Drupal, an incomplete copy-paste from a Plone-Users discussion.
+
 
 .. _`Bartik`: https://drupal.org/documentation/themes/bartik
