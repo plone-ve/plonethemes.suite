@@ -77,7 +77,7 @@ that include the following *Technical details*:
   :width: 55%
   :alt: medialog.mobilethemeOne Mobile Theme
 
-  ``medialog.mobilethemeOne`` theme Mobile Theme.
+  ``medialog.mobilethemeOne`` Mobile Theme.
 
 A demo using the ``medialog.mobilethemeOne`` add-on as a reduced view for Mobile device 
 look like the following:
