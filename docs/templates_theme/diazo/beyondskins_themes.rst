@@ -359,23 +359,42 @@ The `beyondskins.responsive <https://github.com/plone-ve/beyondskins.responsive>
 - **CSS framework:** None
 - **Supported versions:** Plone 4
 
-A demo using the ``beyondskins.responsive`` add-on as a normal view look like the following:
-
 .. figure:: ../../_static/beyondskins_responsive.png
   :align: center
   :width: 55%
   :alt: Beyondskins Responsive Theme
 
-  ``Beyondskins Responsive`` Theme Demo at Plone front-page.
+  ``Beyondskins Responsive`` Theme.
 
-A demo using the ``beyondskins.responsive`` add-on as a reduced view for mobile look like the following:
+A demo using the ``Beyondskins Responsive Theme`` add-on as a reduced view for Mobile device 
+look like the following:
 
-.. figure:: ../../_static/beyondskins_responsive_reduced.png
+.. figure:: ../../_static/beyondskins_responsive_mobile.png
   :align: center
-  :width: 55%
-  :alt: Beyondskins Responsive reduced theme
+  :width: 30%
+  :alt: Beyondskins Responsive Theme at Mobile device
 
-  ``Beyondskins Responsive`` reduced theme Demo at Plone front-page.
+  ``Beyondskins Responsive`` theme Demo at Mobile device.
+
+A demo using the ``Beyondskins Responsive Theme`` add-on as a reduced view for Tablet device 
+look like the following:
+
+.. figure:: ../../_static/beyondskins_responsive_tablet.png
+  :align: center
+  :width: 45%
+  :alt: Beyondskins Responsive Theme at Tablet device
+
+  ``Beyondskins Responsive`` theme Demo at Tablet device.
+
+A demo using the ``Beyondskins Responsive Theme`` add-on as a reduced view for Laptop device 
+look like the following:
+
+.. figure:: ../../_static/beyondskins_responsive_laptop.png
+  :align: center
+  :width: 75%
+  :alt: Beyondskins Responsive Theme at Laptop device
+
+  ``Beyondskins Responsive`` theme Demo Laptop device.
 
 ----
 
