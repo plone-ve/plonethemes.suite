@@ -118,14 +118,14 @@ A *Startup Responsive Initializr Theme* implementations in Plone looks like the 
   :width: 55%
   :alt: Startup Responsive Initializr Theme
 
-  ``Startup Responsive Initializr`` Theme at Plone front-page.
+  ``Startup Responsive Initializr`` Theme.
 
 A demo using the ``Startup Responsive Initializr Theme`` add-on as a reduced view for Mobile device 
 look like the following:
 
 .. figure:: ../../../_static/diazotheme_startup_initializr_responsive_mobile.png
   :align: center
-  :width: 45%
+  :width: 30%
   :alt: Startup Responsive Initializr Theme at Mobile device
 
   ``Startup Responsive Initializr`` theme Demo at Mobile device.
@@ -135,7 +135,7 @@ look like the following:
 
 .. figure:: ../../../_static/diazotheme_startup_initializr_responsive_tablet.png
   :align: center
-  :width: 55%
+  :width: 45%
   :alt: Startup Responsive Initializr Theme at Tablet device
 
   ``Startup Responsive Initializr`` theme Demo at Tablet device.
