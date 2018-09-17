@@ -52,7 +52,7 @@ The target audience of the documentation includes
 .. toctree::
    :maxdepth: 2
 
-   scaffolding
+   scaffolding/index
 
 .. toctree::
    :maxdepth: 2
