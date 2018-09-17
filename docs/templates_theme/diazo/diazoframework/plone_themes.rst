@@ -98,7 +98,37 @@ looks like the following:
   :width: 55%
   :alt: Plone Sunburst Responsive (Diazo Framework) Theme
 
-  ``Plone Sunburst Responsive (Diazo Framework)`` Theme at Plone front-page.
+  ``Plone Sunburst Responsive (Diazo Framework)`` Theme.
+
+A demo using the ``Plone Sunburst Responsive (Diazo Framework) Theme`` add-on as a reduced view for Mobile device 
+look like the following:
+
+.. figure:: ../../../_static/diazotheme_plone_sunburst_responsive_mobile.png
+  :align: center
+  :width: 30%
+  :alt: Plone Sunburst Responsive (Diazo Framework) Theme at Mobile device
+
+  ``Plone Sunburst Responsive (Diazo Framework)`` theme Demo at Mobile device.
+
+A demo using the ``Plone Sunburst Responsive (Diazo Framework) Theme`` add-on as a reduced view for Tablet device 
+look like the following:
+
+.. figure:: ../../../_static/diazotheme_plone_sunburst_responsive_tablet.png
+  :align: center
+  :width: 45%
+  :alt: Plone Sunburst Responsive (Diazo Framework) Theme at Tablet device
+
+  ``Plone Sunburst Responsive (Diazo Framework)`` theme Demo at Tablet device.
+
+A demo using the ``Plone Sunburst Responsive (Diazo Framework) Theme`` add-on as a reduced view for Laptop device 
+look like the following:
+
+.. figure:: ../../../_static/diazotheme_plone_sunburst_responsive_laptop.png
+  :align: center
+  :width: 75%
+  :alt: Plone Sunburst Responsive (Diazo Framework) Theme at Laptop device
+
+  ``Plone Sunburst Responsive (Diazo Framework)`` theme Demo Laptop device.
 
 .. note::
     This theme is included into the `diazotheme.plone`_ package that is based on the 
