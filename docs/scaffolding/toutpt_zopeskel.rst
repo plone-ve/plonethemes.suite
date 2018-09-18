@@ -253,7 +253,7 @@ Here some examples about ``collective.js.*`` packages:
 
 - :ref:`collective.js.supersized <collective-js-supersized>`
 
-- Other  ``collective.js.*`` packages are available on `GitHub.com`_
+- Others ``collective.js.*`` packages are available on `GitHub.com`_
 
 ----
 
