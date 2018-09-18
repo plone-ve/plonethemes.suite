@@ -19,7 +19,8 @@ an easier syntax for invoking and better help.
 create a new project with zopeskel script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can create a new project using the ``zopeskel`` script, executing the follow command:
+You can create a new project using the ``zopeskel`` script, executing the follow 
+command:
 
 ::
 
@@ -29,8 +30,8 @@ You can create a new project using the ``zopeskel`` script, executing the follow
 list templates from zopeskel script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can list the :ref:`ZopeSkel <zopeskel>` templates available using the ``zopeskel`` script, 
-executing the follow command:
+You can list the :ref:`ZopeSkel <zopeskel>` templates available using the ``zopeskel`` 
+script, executing the follow command:
 
 ::
 

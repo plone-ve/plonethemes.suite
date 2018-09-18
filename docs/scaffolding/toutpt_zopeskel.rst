@@ -25,8 +25,8 @@ The package profile install the theme, activate it, and unactivate ``column.css`
 Usage
 `````
 
-For use the ``toutpt_diazo960`` :ref:`ZopeSkel <zopeskel>` template, execute the follow command 
-and response the questions in the standard input from the console command:
+For use the ``toutpt_diazo960`` :ref:`ZopeSkel <zopeskel>` template, execute the follow 
+command and response the questions in the standard input from the console command:
 
 ::
 
@@ -89,6 +89,9 @@ This will create a Python package with a directory structure like this:
     └── setup.py
 
 
+----
+
+
 toutpt_diazobootstrap
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -102,8 +105,8 @@ and override the 'main_template' to reset the viewport.
 Usage
 `````
 
-For use the ``toutpt_diazobootstrap`` :ref:`ZopeSkel <zopeskel>` template, execute the follow command 
-and response the questions in the standard input from the console command:
+For use the ``toutpt_diazobootstrap`` :ref:`ZopeSkel <zopeskel>` template, execute the 
+follow command and response the questions in the standard input from the console command:
 
 ::
 
@@ -178,19 +181,22 @@ This will create a Python package with a directory structure like this:
     └── setup.py
 
 
+----
+
+
 toutpt_collectivejs
 ^^^^^^^^^^^^^^^^^^^
 
 Create a package to provide a javascript library to Plone. Many ``collective.js.*`` 
-packages can be found like jquery.ui.
+packages can be found like :ref:`jquery.ui <jquery-ui-library>`.
 
 This template has been used to create ``collective.js.formalize`` package.
 
 Usage
 `````
 
-For use the ``toutpt_collectivejs`` :ref:`ZopeSkel <zopeskel>` template, execute the follow command 
-and response the questions in the standard input from the console command:
+For use the ``toutpt_collectivejs`` :ref:`ZopeSkel <zopeskel>` template, execute the 
+follow command and response the questions in the standard input from the console command:
 
 ::
 
@@ -236,6 +242,21 @@ This will create a Python package with a directory structure like this:
     ├── README.rst
     └── setup.py
 
+Examples
+````````
+
+Here some examples about ``collective.js.*`` packages:
+
+- :ref:`collective.js.bootstrap <collective-js-bootstrap>`
+
+- :ref:`collective.js.galleria <collective-js-galleria>`
+
+- :ref:`collective.js.supersized <collective-js-supersized>`
+
+- Other  ``collective.js.*`` packages are available on `GitHub.com`_
+
+----
+
 
 toutpt_collective
 ^^^^^^^^^^^^^^^^^
@@ -247,8 +268,8 @@ All common needs are their.
 Usage
 `````
 
-For use the ``toutpt_collective`` :ref:`ZopeSkel <zopeskel>` template, execute the follow command 
-and response the questions in the standard input from the console command:
+For use the ``toutpt_collective`` :ref:`ZopeSkel <zopeskel>` template, execute the 
+follow command and response the questions in the standard input from the console command:
 
 ::
 
@@ -308,5 +329,9 @@ This will create a Python package with a directory structure like this:
     ├── README.rst
     └── setup.py
 
+
+----
+
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/1.1.8/
 .. _`toutpt.zopeskel v1.3.3`: https://pypi.org/project/toutpt.zopeskel/1.3.3/
+.. _`GitHub.com`: https://github.com/search?q=collective.js.*&ref=opensearch

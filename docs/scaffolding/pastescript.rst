@@ -29,8 +29,8 @@ You can create a new project using the ``paster`` script, executing the follow c
 list templates from paster script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can list the :ref:`ZopeSkel <zopeskel>` templates available using the ``paster`` script, executing the 
-follow command:
+You can list the :ref:`ZopeSkel <zopeskel>` templates available using the ``paster`` 
+script, executing the follow command:
 
 ::
 
