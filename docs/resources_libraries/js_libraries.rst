@@ -7,6 +7,8 @@ The **"Plone theming suite"** includes the following *Javascript* libraries as j
 or bundle of static files supported:
 
 
+.. _collective-js-bootstrap:
+
 collective.js.bootstrap
 -----------------------
 
@@ -36,6 +38,8 @@ How to install
 
 This add-on just need to be present in the zope instance. No profile to apply.
 
+
+.. _collective-js-galleria:
 
 collective.js.galleria
 ----------------------
@@ -104,6 +108,8 @@ and css called by the template.
 
 As you can see the original code has been patched to support ``++resource++`` url.
 
+
+.. _collective-js-supersized:
 
 collective.js.supersized
 ------------------------
