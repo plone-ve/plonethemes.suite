@@ -32,6 +32,8 @@ A demo using the ``plonetheme.aclark_twitter`` add-on look like the following:
 
 ----
 
+.. _plonetheme-trantor:
+
 plonetheme.trantor
 ^^^^^^^^^^^^^^^^^^
 

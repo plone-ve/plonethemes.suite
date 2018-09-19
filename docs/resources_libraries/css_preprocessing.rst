@@ -234,3 +234,17 @@ the SASS CSS pre-processor with Plone.
 
 .. todo::
     TODO this section for ``collective.scss`` package
+
+
+----
+
+.. _sass_supported_themes:
+
+SASS/SCSS Supported Themes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There are available themes with :ref:`SASS/SCSS <sass>` supported and there are the following:
+
+- :ref:`Plone theme Trantor <plonetheme-trantor>`.
+
+- :ref:`quintagroup.theme.pythonreel <quintagroup-theme-pythonreel>` theme.

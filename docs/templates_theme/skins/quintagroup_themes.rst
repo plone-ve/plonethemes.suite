@@ -5,6 +5,7 @@ Quintagroup Themes
 
 The `Quintagroup Themes`_ are design by `Quintagroup`_.
 
+.. _quintagroup-theme-pythonreel:
 
 quintagroup.theme.pythonreel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
