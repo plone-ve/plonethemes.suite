@@ -58,6 +58,8 @@ A demo using the ``quintagroup.theme.schools`` add-on look like the following:
 
 ----
 
+.. _quintagroup-theme-sunrain:
+
 quintagroup.theme.sunrain
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 

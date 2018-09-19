@@ -5,6 +5,7 @@ Beyondskins Themes
 
 The `Beyondskins themes`_ for Plone are design by `Simples Consultoria`_.
 
+.. _beyondskins-beyondskins:
 
 beyondskins.beyondskins
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -32,6 +33,8 @@ A demo using the ``beyondskins.beyondskins`` add-on look like the following:
 
 ----
 
+.. _beyondskins-brasilia:
+
 beyondskins.brasilia
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -57,6 +60,8 @@ A demo using the ``beyondskins.brasilia`` add-on look like the following:
   ``Beyondskins Brasilia`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-capitulo1:
 
 beyondskins.capitulo1
 ^^^^^^^^^^^^^^^^^^^^^
@@ -84,6 +89,8 @@ A demo using the ``beyondskins.capitulo1`` add-on look like the following:
 
 ----
 
+.. _beyondskins-colors:
+
 beyondskins.colors
 ^^^^^^^^^^^^^^^^^^
 
@@ -109,6 +116,8 @@ A demo using the ``beyondskins.colors`` add-on look like the following:
   ``Beyondskins Colors`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-happy:
 
 beyondskins.happy
 ^^^^^^^^^^^^^^^^^
@@ -136,6 +145,8 @@ A demo using the ``beyondskins.happy`` add-on look like the following:
 
 ----
 
+.. _beyondskins-html5:
+
 beyondskins.html5
 ^^^^^^^^^^^^^^^^^
 
@@ -161,6 +172,8 @@ A demo using the ``beyondskins.html5`` add-on look like the following:
   ``Beyondskins Html5`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-item6:
 
 beyondskins.item6
 ^^^^^^^^^^^^^^^^^
@@ -188,6 +201,8 @@ A demo using the ``beyondskins.item6`` add-on look like the following:
 
 ----
 
+.. _beyondskins-lostkatana:
+
 beyondskins.lostkatana
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -213,6 +228,8 @@ A demo using the ``beyondskins.lostkatana`` add-on look like the following:
   ``Beyondskins "Raiders of the lost Katana"`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-minimalist:
 
 beyondskins.minimalist
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -240,6 +257,8 @@ A demo using the ``beyondskins.minimalist`` add-on look like the following:
 
 ----
 
+.. _beyondskins-pb9-site:
+
 beyondskins.pb9.site
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -265,6 +284,8 @@ A demo using the ``beyondskins.pb9.site`` add-on look like the following:
   ``Beyondskins PythonBrasil 9`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-phantasmagoria:
 
 beyondskins.phantasmagoria
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -292,6 +313,8 @@ A demo using the ``beyondskins.phantasmagoria`` add-on look like the following:
 
 ----
 
+.. _beyondskins-plaza:
+
 beyondskins.plaza
 ^^^^^^^^^^^^^^^^^
 
@@ -317,6 +340,8 @@ A demo using the ``beyondskins.plaza`` add-on look like the following:
   ``Beyondskins Plaza`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-plonesymposium-site:
 
 beyondskins.plonesymposium.site
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -398,6 +423,8 @@ look like the following:
 
 ----
 
+.. _beyondskins-s17:
+
 beyondskins.s17
 ^^^^^^^^^^^^^^^
 
@@ -423,6 +450,8 @@ A demo using the ``beyondskins.s17`` add-on look like the following:
 
 ----
 
+.. _beyondskins-sports:
+
 beyondskins.sports
 ^^^^^^^^^^^^^^^^^^
 
@@ -447,6 +476,8 @@ A demo using the ``beyondskins.sports`` add-on look like the following:
   ``Beyondskins Sports`` Theme Demo at Plone front-page.
 
 ----
+
+.. _beyondskins-sunflower:
 
 beyondskins.sunflower
 ^^^^^^^^^^^^^^^^^^^^^

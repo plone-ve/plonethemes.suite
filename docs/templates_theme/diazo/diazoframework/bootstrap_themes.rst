@@ -102,6 +102,129 @@ The **Twitter Bootstrap Marketing Narrow Theme** aka ``marketing-narrow``, is a 
 
   ``Twitter Bootstrap Marketing Narrow`` Theme at Plone front-page.
 
+----
+
+.. _example-bootstrap:
+
+example.bootstrap
+`````````````````
+
+The `example.bootstrap <https://github.com/sneridagh/example.bootstrap>`_ package 
+include the following *Technical details*:
+
+- **DOCTYPE HTML:** HTML5
+- **Stylesheet:** CSS/:ref:`LESS <less>`
+- **JS support?:**  :ref:`jQuery <jquery-library>`
+- **Web fonts?:** No
+- **Grid support?:** Yes
+- **Responsive?:** Yes
+- **CSS framework:** :ref:`Twitter Bootstrap CSS framework <bootstrap-css-framework>`
+- **Supported versions:** Plone 4
+
+
+The resources of this theme can be reached through
+
+``/++bootstrap++less``
+  To access to :ref:`LESS <less>` resources files.
+
+``/++bootstrap++js``
+  To access to :ref:`jQuery <jquery-library>` resources files.
+
+``/++bootstrap++img``
+  To access to images resources files.
+
+There are placed at ``example.bootstrap/src/example/bootstrap/resources`` 
+directory with following resources files:
+
+::
+
+    resources/
+    ├── img
+    │   ├── glyphicons-halflings.png
+    │   └── glyphicons-halflings-white.png
+    ├── js
+    │   ├── bootstrap-alert.js
+    │   ├── bootstrap-button.js
+    │   ├── bootstrap-carousel.js
+    │   ├── bootstrap-collapse.js
+    │   ├── bootstrap-dropdown.js
+    │   ├── bootstrap-modal.js
+    │   ├── bootstrap-popover.js
+    │   ├── bootstrap-scrollspy.js
+    │   ├── bootstrap-tab.js
+    │   ├── bootstrap-tooltip.js
+    │   ├── bootstrap-transition.js
+    │   ├── bootstrap-typeahead.js
+    │   ├── README.md
+    │   └── tests
+    │       ├── index.html
+    │       ├── unit
+    │       │   ├── bootstrap-alert.js
+    │       │   ├── bootstrap-button.js
+    │       │   ├── bootstrap-collapse.js
+    │       │   ├── bootstrap-dropdown.js
+    │       │   ├── bootstrap-modal.js
+    │       │   ├── bootstrap-popover.js
+    │       │   ├── bootstrap-scrollspy.js
+    │       │   ├── bootstrap-tab.js
+    │       │   ├── bootstrap-tooltip.js
+    │       │   ├── bootstrap-transition.js
+    │       │   └── bootstrap-typeahead.js
+    │       └── vendor
+    │           ├── jquery.js
+    │           ├── qunit.css
+    │           └── qunit.js
+    └── less
+        ├── accordion.less
+        ├── alerts.less
+        ├── badges.less
+        ├── bootstrap.less
+        ├── breadcrumbs.less
+        ├── button-groups.less
+        ├── buttons.less
+        ├── carousel.less
+        ├── close.less
+        ├── code.less
+        ├── component-animations.less
+        ├── dropdowns.less
+        ├── forms.less
+        ├── grid.less
+        ├── hero-unit.less
+        ├── labels.less
+        ├── layouts.less
+        ├── mixins.less
+        ├── modals.less
+        ├── navbar.less
+        ├── navs.less
+        ├── pager.less
+        ├── pagination.less
+        ├── popovers.less
+        ├── progress-bars.less
+        ├── reset.less
+        ├── responsive.less
+        ├── scaffolding.less
+        ├── sprites.less
+        ├── tables.less
+        ├── thumbnails.less
+        ├── tooltip.less
+        ├── type.less
+        ├── utilities.less
+        ├── variables.less
+        └── wells.less
+
+A demo using the ``example.bootstrap`` add-on look like the following:
+
+.. todo::
+    TODO Add a example.bootstrap screenshot
+
+..
+  .. figure:: ../../_static/example_bootstrap.png
+    :align: center
+    :width: 55%
+    :alt: example.bootstrap Theme
+
+    ``example.bootstrap`` Theme Demo at Plone front-page.
+
 
 ----
 

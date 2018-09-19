@@ -50,6 +50,8 @@ The **Kube Theme** aka ``theme``, is a diazo theme that use with `Sunburst Theme
 
 ----
 
+.. _diazotheme-kube-demo-theme:
+
 Kube Demo Theme
 ````````````````
 

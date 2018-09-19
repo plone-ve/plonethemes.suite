@@ -168,11 +168,42 @@ Theme Example
 `````````````
 
 You can check out a :ref:`Twitter Bootstrap <bootstrap-css-framework>` integration 
-using the `example.bootstrap <https://github.com/sneridagh/example.bootstrap>`_ package 
-for a full example on how to integrate :ref:`LESS <less>` resources in your theme package.
+using the :ref:`example.bootstrap <example-bootstrap>` package for a full example 
+on how to integrate :ref:`LESS <less>` resources in your theme package.
 
 .. note::
-    The ``example.bootstrap`` package is supported by the :ref:`Plone Theming Suite <pts-introduction>`.
+    The :ref:`example.bootstrap <example-bootstrap>` package is supported by the :ref:`Plone Theming Suite <pts-introduction>`.
+
+----
+
+.. _less_supported_themes:
+
+LESS Supported Themes
+^^^^^^^^^^^^^^^^^^^^^
+
+There are available themes with :ref:`LESS <less>` supported and there are the following:
+
+- :ref:`Beyondskins capitulo1 <beyondskins-capitulo1>` theme.
+
+- :ref:`Beyondskins colors <beyondskins-colors>` theme.
+
+- :ref:`Beyondskins happy <beyondskins-happy>` theme.
+
+- :ref:`Beyondskins item6 <beyondskins-item6>` theme.
+
+- :ref:`Beyondskins minimalist <beyondskins-minimalist>` theme.
+
+- :ref:`Beyondskins phantasmagoria <beyondskins-phantasmagoria>` theme.
+
+- :ref:`Beyondskins plaza <beyondskins-plaza>` theme.
+
+- :ref:`example.bootstrap <example-bootstrap>` theme.
+
+- :ref:`Kube "theme" from diazotheme.kube <diazotheme-kube>` package.
+
+- :ref:`Kube "demo" Theme from diazotheme.kube <diazotheme-kube-demo-theme>` package.
+
+- :ref:`quintagroup.theme.sunrain <quintagroup-theme-sunrain>` theme.
 
 ----
 
